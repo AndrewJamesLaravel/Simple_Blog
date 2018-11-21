@@ -1,0 +1,42 @@
+form#editor{
+    width: 625px;
+    position: absolute;
+    left: 26%;
+    top: 16%;
+    padding: 0px;
+}
+
+form#editor label, form#editor input[type='text']{
+    display: block;
+}
+
+form#editor #editor-buttons{
+    border: none;
+    text-align: right;
+}
+
+form#editor textarea, form#editor input[type='text']{
+    width: 99%;
+    margin-bottom: 2em;
+}
+
+form#editor textarea{
+    height: 10em;
+}
+
+form#comment-form label, form#comment-form input[type='submit']{
+    padding-top: 0.7em;
+    display: block;
+}
+
+
+
+/*form#editor label, form#editor textarea, form#editor input[type='text']{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3px;
+}*/
+
