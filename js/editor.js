@@ -4,7 +4,7 @@ function checkTitle (event) {
     if (title.value === "") {
         //preventDefault, ie don't submit the form
         event.preventDefault();
-        warning.innerHTML = "*You must write a title for the entry";
+        warning.innerHTML = "* You must write a title for the entry";
     }
 }
 

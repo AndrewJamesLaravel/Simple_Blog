@@ -11,7 +11,7 @@ if ( $loginFormSubmitted ) {
         $adminTable->checkCredentials( $email, $password );
         $admin->login();
     } catch (Exception $loginProblem) {
-        $adminFormMessage = $loginProblem->getMessage();
+        $loginFormMessage = $loginProblem->getMessage();
     }
 }
 

@@ -8,6 +8,7 @@ $pageData = new Page_Data();
 $pageData->title = "Admin part";
 $pageData->addCSS("css/blog.css");
 $pageData->addJS("js/editor.js");
+$pageData->addJS("js/login.js");
 
 $dbInfo = "mysql:host=localhost;dbname=simple_blog;charset=utf8";
 $dbUser = "root";
